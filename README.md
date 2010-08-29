@@ -11,3 +11,4 @@ The following are demonstrated in this sample:
  * Having Mover transfer a sticker and receiving it.
  * Displaying a sticker with a custom image and title on the Mover table.
 
+See the comments in the implementation files for more details.
