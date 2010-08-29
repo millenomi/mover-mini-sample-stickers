@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		157A3C6B121DCEEF00744D33 /* StickerItemDisplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 157A3C6A121DCEEF00744D33 /* StickerItemDisplayer.m */; };
+		158D49E6121DC5CA00267D60 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158D49E5121DC5CA00267D60 /* QuartzCore.framework */; };
+		158D49E8121DC5CD00267D60 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158D49E7121DC5CD00267D60 /* CFNetwork.framework */; };
+		158D49EA121DC5D400267D60 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 158D49E9121DC5D400267D60 /* libz.dylib */; };
+		158D49EE121DC5DA00267D60 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158D49ED121DC5DA00267D60 /* MobileCoreServices.framework */; };
+		158D49F2121DC5DF00267D60 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158D49F1121DC5DF00267D60 /* SystemConfiguration.framework */; };
+		158D4A15121DC74100267D60 /* StickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D4A14121DC74100267D60 /* StickerView.m */; };
+		158D4A17121DC75900267D60 /* StickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 158D4A16121DC75900267D60 /* StickerView.xib */; };
+		15A4C30D122AFCC8000E7D13 /* libMoverMini.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A4C2FD122AFCC7000E7D13 /* libMoverMini.a */; };
+		15A4C30E122AFCC8000E7D13 /* libMoverNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A4C2FE122AFCC7000E7D13 /* libMoverNetwork.a */; };
+		15A4C30F122AFCC8000E7D13 /* libMuiKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A4C2FF122AFCC7000E7D13 /* libMuiKit.a */; };
+		15A4C310122AFCC8000E7D13 /* MoverMini.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 15A4C300122AFCC7000E7D13 /* MoverMini.bundle */; };
+		1D3623260D0F684500981E51 /* StickersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* StickersAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		157A3C69121DCEEF00744D33 /* StickerItemDisplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerItemDisplayer.h; sourceTree = "<group>"; };
+		157A3C6A121DCEEF00744D33 /* StickerItemDisplayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerItemDisplayer.m; sourceTree = "<group>"; };
+		158D49CE121DC56B00267D60 /* MoverMini.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MoverMini.bundle; sourceTree = "<group>"; };
+		158D49CF121DC56B00267D60 /* MoverMini */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MoverMini; sourceTree = "<group>"; };
+		158D49E5121DC5CA00267D60 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		158D49E7121DC5CD00267D60 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		158D49E9121DC5D400267D60 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		158D49ED121DC5DA00267D60 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		158D49F1121DC5DF00267D60 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		158D4A13121DC74100267D60 /* StickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerView.h; sourceTree = "<group>"; };
+		158D4A14121DC74100267D60 /* StickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerView.m; sourceTree = "<group>"; };
+		158D4A16121DC75900267D60 /* StickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StickerView.xib; sourceTree = "<group>"; };
+		15A4C2FD122AFCC7000E7D13 /* libMoverMini.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMoverMini.a; sourceTree = "<group>"; };
+		15A4C2FE122AFCC7000E7D13 /* libMoverNetwork.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMoverNetwork.a; sourceTree = "<group>"; };
+		15A4C2FF122AFCC7000E7D13 /* libMuiKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMuiKit.a; sourceTree = "<group>"; };
+		15A4C300122AFCC7000E7D13 /* MoverMini.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MoverMini.bundle; sourceTree = "<group>"; };
+		15A4C301122AFCC7000E7D13 /* MoverMini.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoverMini.h; sourceTree = "<group>"; };
+		15A4C302122AFCC8000E7D13 /* MoverMini.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MoverMini.xcconfig; sourceTree = "<group>"; };
+		15A4C303122AFCC8000E7D13 /* MvrEndpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MvrEndpoint.h; sourceTree = "<group>"; };
+		15A4C304122AFCC8000E7D13 /* MvrEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MvrEngine.h; sourceTree = "<group>"; };
+		15A4C305122AFCC8000E7D13 /* MvrMiniImageDisplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MvrMiniImageDisplayer.h; sourceTree = "<group>"; };
+		15A4C306122AFCC8000E7D13 /* MvrMiniIncoming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MvrMiniIncoming.h; sourceTree = "<group>"; };
+		15A4C307122AFCC8000E7D13 /* MvrMiniItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MvrMiniItem.h; sourceTree = "<group>"; };
+		15A4C308122AFCC8000E7D13 /* MvrMiniItemAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MvrMiniItemAction.h; sourceTree = "<group>"; };
+		15A4C309122AFCC8000E7D13 /* MvrMiniItemDisplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MvrMiniItemDisplayer.h; sourceTree = "<group>"; };
+		15A4C30A122AFCC8000E7D13 /* MvrMiniOutgoing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MvrMiniOutgoing.h; sourceTree = "<group>"; };
+		15A4C30B122AFCC8000E7D13 /* MvrMiniProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MvrMiniProtocol.h; sourceTree = "<group>"; };
+		15A4C30C122AFCC8000E7D13 /* MvrTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MvrTable.h; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* StickersAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickersAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* StickersAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickersAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Stickers_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stickers_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Stickers-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Stickers-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				158D49E6121DC5CA00267D60 /* QuartzCore.framework in Frameworks */,
+				158D49E8121DC5CD00267D60 /* CFNetwork.framework in Frameworks */,
+				158D49EA121DC5D400267D60 /* libz.dylib in Frameworks */,
+				158D49EE121DC5DA00267D60 /* MobileCoreServices.framework in Frameworks */,
+				158D49F2121DC5DF00267D60 /* SystemConfiguration.framework in Frameworks */,
+				15A4C30D122AFCC8000E7D13 /* libMoverMini.a in Frameworks */,
+				15A4C30E122AFCC8000E7D13 /* libMoverNetwork.a in Frameworks */,
+				15A4C30F122AFCC8000E7D13 /* libMuiKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* StickersAppDelegate.h */,
+				1D3623250D0F684500981E51 /* StickersAppDelegate.m */,
+				157A3C69121DCEEF00744D33 /* StickerItemDisplayer.h */,
+				157A3C6A121DCEEF00744D33 /* StickerItemDisplayer.m */,
+				158D4A13121DC74100267D60 /* StickerView.h */,
+				158D4A14121DC74100267D60 /* StickerView.m */,
+				158D4A16121DC75900267D60 /* StickerView.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		158D49E0121DC56F00267D60 /* Mover Mini */ = {
+			isa = PBXGroup;
+			children = (
+				158D49CE121DC56B00267D60 /* MoverMini.bundle */,
+				158D49CF121DC56B00267D60 /* MoverMini */,
+			);
+			name = "Mover Mini";
+			sourceTree = "<group>";
+		};
+		15A4C2FC122AFCC7000E7D13 /* MoverMini */ = {
+			isa = PBXGroup;
+			children = (
+				15A4C2FD122AFCC7000E7D13 /* libMoverMini.a */,
+				15A4C2FE122AFCC7000E7D13 /* libMoverNetwork.a */,
+				15A4C2FF122AFCC7000E7D13 /* libMuiKit.a */,
+				15A4C300122AFCC7000E7D13 /* MoverMini.bundle */,
+				15A4C301122AFCC7000E7D13 /* MoverMini.h */,
+				15A4C302122AFCC8000E7D13 /* MoverMini.xcconfig */,
+				15A4C303122AFCC8000E7D13 /* MvrEndpoint.h */,
+				15A4C304122AFCC8000E7D13 /* MvrEngine.h */,
+				15A4C305122AFCC8000E7D13 /* MvrMiniImageDisplayer.h */,
+				15A4C306122AFCC8000E7D13 /* MvrMiniIncoming.h */,
+				15A4C307122AFCC8000E7D13 /* MvrMiniItem.h */,
+				15A4C308122AFCC8000E7D13 /* MvrMiniItemAction.h */,
+				15A4C309122AFCC8000E7D13 /* MvrMiniItemDisplayer.h */,
+				15A4C30A122AFCC8000E7D13 /* MvrMiniOutgoing.h */,
+				15A4C30B122AFCC8000E7D13 /* MvrMiniProtocol.h */,
+				15A4C30C122AFCC8000E7D13 /* MvrTable.h */,
+			);
+			path = MoverMini;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Stickers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				158D49E0121DC56F00267D60 /* Mover Mini */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				158D49E5121DC5CA00267D60 /* QuartzCore.framework */,
+				158D49E7121DC5CD00267D60 /* CFNetwork.framework */,
+				158D49E9121DC5D400267D60 /* libz.dylib */,
+				158D49ED121DC5DA00267D60 /* MobileCoreServices.framework */,
+				158D49F1121DC5DF00267D60 /* SystemConfiguration.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				15A4C2FC122AFCC7000E7D13 /* MoverMini */,
+				32CA4F630368D1EE00C91783 /* Stickers_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Stickers-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Stickers" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stickers;
+			productName = Stickers;
+			productReference = 1D6058910D05DD3D006BFB54 /* Stickers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Stickers" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Stickers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				158D4A17121DC75900267D60 /* StickerView.xib in Resources */,
+				15A4C310122AFCC8000E7D13 /* MoverMini.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* StickersAppDelegate.m in Sources */,
+				158D4A15121DC74100267D60 /* StickerView.m in Sources */,
+				157A3C6B121DCEEF00744D33 /* StickerItemDisplayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A4C302122AFCC8000E7D13 /* MoverMini.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Stickers_Prefix.pch;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				INFOPLIST_FILE = "Stickers-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/MoverMini\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lMuiKit",
+					"-lMoverNetwork",
+					"-lMoverMini",
+				);
+				PRODUCT_NAME = Stickers;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A4C302122AFCC8000E7D13 /* MoverMini.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Emanuele Vulcano";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Stickers_Prefix.pch;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				INFOPLIST_FILE = "Stickers-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/MoverMini\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lMuiKit",
+					"-lMoverNetwork",
+					"-lMoverMini",
+				);
+				PRODUCT_NAME = Stickers;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AFB933FE-CCEB-4F5D-966B-9177007876F3";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
